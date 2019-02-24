@@ -44,9 +44,9 @@
 
 <style lang="scss">
 .card-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
 }
 .modal-mask {
   position: fixed;

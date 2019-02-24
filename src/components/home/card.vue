@@ -13,10 +13,10 @@
 
 <style lang="scss">
 .card {
-  // float: left;
-  // overflow: hidden;
+  float: left;
+  overflow: hidden;
   height: 200px;
-  width: 270px;
+  width: 21%;
   margin: 20px;
   background-color: white;
   cursor: pointer;
@@ -96,6 +96,15 @@
       -webkit-line-clamp: 2;
       line-height: 1.5;
     }
+  }
+  @media screen and (max-width: 900px) {
+    width: 28%;
+  }
+  @media screen and (max-width: 786px) {
+    width: 44%;
+  }
+  @media screen and (max-width: 600px) {
+    width: 89%;
   }
 }
 </style>
